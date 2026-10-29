@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CSS Background and Link Styles</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ background-image: url("https://images.pexels.com/photos/29929136/pexels-photo-
+29929136.jpeg?cs=srgb&dl=pexels-anna-2037514238-29929136.jpg&fm=jpg");
+ background-repeat: repeat;
+ color: #222;
+ padding: 30px;
+ }
+ h1 {
+ color: darkblue;
+ text-align: center;
+ }
+ .content {
+ background-color: rgb(224, 210, 224);
+ padding: 20px;
+ border: 2px solid navy;
+ border-radius: 10px;
+ }
+ /* Unvisited link */
+ a:link {
+ color: blue;
+ text-decoration: none;
+ }
+ /* Visited link */
+ a:visited {color: purple;
+ }
+ /* Mouse pointer over link */
+ a:hover {
+ color: red;
+ text-decoration: underline;
+ }
+ /* Link being clicked */
+ a:active {
+ color: orange;
+ }
+ </style>
+</head>
+<body>
+ <div class="content">
+ <h1>CSS Background and Link Styles</h1>
+ <p>This webpage demonstrates the CSS
+ background-repeat property and hyperlink styles.</p>
+ <h2>Useful Links</h2>
+ <p><a href="https://www.google.com">Google</a></p>
+ <p><a href="https://www.wikipedia.org">Wikipedia</a></p>
+ <p><a href="https://www.w3schools.com">W3Schools</a></p>
+ </div>
+</body>
+</html>
